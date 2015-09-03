@@ -1,0 +1,30 @@
+body {
+    z-index: 1;
+    background: url("/res/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/*!
+    OSX Dock
+*/
+
+#footer {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#footer img {
+    height: 50px;
+    width: 50px;
+}
+
+#windows_logo {
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+}
